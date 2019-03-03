@@ -1,22 +1,34 @@
 #include <stdio.h>
-//#include <stdlib.h>
+#include <stdlib.h>
 
-char prototype(char);
+void prototype(char);
+void callByValue(int);
+void callByReference(int *);
 int main()
 {
 //    sizeOfVariables();
 //    shifting();
 //    andOrParameters();
 //    loops();
-//    char a;
-//    printf("%c",prototype(a));
-    pointers();
-
+/*    char a;
+    printf("%c",prototype(a));*/
+//    pointers();
+//    pointerArrays();
+//    mallocExample();
+/*    int a = 10;
+    callByValue(a);//Value will not be change because of its coming from a method
+    printf("a->%d\n",a);
+    callByReference(&a);//Value will be change because we are directly point the address of a
+    printf("a->%d\n",a);*/
 
 }
 
 void sizeOfVariables(){
-    printf("Storage size for int : %d \n", sizeof(int));
+    printf("Storage size for int : %d byte\n", sizeof(int));
+    printf("Storage size for float : %d byte\n", sizeof(float));
+    printf("Storage size for long : %d byte\n", sizeof(long));
+    printf("Storage size for unsigned int : %d byte\n", sizeof(unsigned int));
+    printf("Storage size for char : %d byte\n", sizeof(char));
 }
 
 void shifting()
@@ -78,15 +90,14 @@ void loops(){
     }
 }
 
-char prototype(char a){
+void prototype(char a){
 
 
-    //printf("\n");
-    //printf("Prototype Example\n");
-    //printf("Enter a character");
+    printf("\n");
+    printf("Prototype Example\n");
+    printf("Enter a character");
     scanf("%c",&a);
     printf("a = %c\n",a);
-    return a;
 }
 
 void pointers(){
@@ -97,10 +108,48 @@ void pointers(){
     printf("Pointers \n");
     printf("\n Address of p->%d",&p);
     printf("\n Content of p->%d",p);
+    printf("\n Pointer of p->%d",*p);
 
     printf("\n Address of a->%d",&a);
     printf("\n Content of a->%d",a);
+    //printf("\n Pointer of a->%d",*a);//this gives us an error due to "a" is not a pointer
 
     printf("\nIs &a->%d=p->%d true->%d",&a,p,&a==p);
 
+}
+
+void pointerArrays(){
+    printf("\n");
+    int d[] = {0,1,2,3,4,5,6,7,8,9};
+    int *p;
+    p=&d;
+    printf("Pointer at Arrays \n");
+    printf("4. element of d array with d[3]->%d\n",d[3]);
+    printf("4. element of d array with *(p+4)->%d\n",*(p+3));
+}
+
+void mallocExample(){
+    printf("\n");
+    int a = 10;
+    int *p = (int*)malloc(sizeof(int)*a);
+    printf("Malloc Example\n");
+    if(p == NULL)
+    {
+        printf("Error! memory not allocated.\n");
+        exit(0);
+    }else{
+        printf("Memory allocated.\n");
+    }
+    for(int i = 0 ; i<10 ; i++){
+        printf("After %d.element of p array is ->%d\n",i,p[i]);
+        p[i]=i;
+        printf("Before %d.element of p array is ->%d\n\n",i,p[i]);
+    }
+    free(p);
+}
+void callByValue(int a){
+    a=50;
+}
+void callByReference(int *a){
+    *a=80;
 }

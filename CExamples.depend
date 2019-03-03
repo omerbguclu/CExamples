@@ -1,4 +1,5 @@
 # depslib dependency file v1.0
-1551619776 source:d:\desktopshortcuts\mycc++projects\cexamples\main.c
+1551628680 source:d:\desktopshortcuts\mycc++projects\cexamples\main.c
 	<stdio.h>
+	<stdlib.h>
 

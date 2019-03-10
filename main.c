@@ -4,6 +4,9 @@
 void prototype(char);
 void callByValue(int);
 void callByReference(int *);
+void structExample(void);
+void stringExample(void);
+void fileExample(void);
 int main()
 {
 //    sizeOfVariables();
@@ -20,7 +23,9 @@ int main()
     printf("a->%d\n",a);
     callByReference(&a);//Value will be change because we are directly point the address of a
     printf("a->%d\n",a);*/
-
+//    structExample();
+//    stringExample();
+    fileExample();
 }
 
 void sizeOfVariables(){
@@ -153,3 +158,126 @@ void callByValue(int a){
 void callByReference(int *a){
     *a=80;
 }
+
+void structExample(){
+    printf("\nStruct Example\n");
+    typedef enum{
+        male,
+        female
+    } gender;
+
+    typedef struct{
+        int age;
+        char *name;
+        gender sex;
+    }human;
+
+    human jack;
+    jack.age = 25;
+    jack.sex = male;
+    printf("Age of Jack : %d \nGender of Jack : %u\n", jack.age,jack.sex);
+
+    human *john;
+    john = (human*)malloc(sizeof(human));
+    john -> age = 30;
+    john -> sex = male;
+    printf("Age of John : %d \nGender of John : %u\n", john->age,john->sex);
+}
+
+void stringExample(){
+    printf("\nString Example\n");
+
+    char name[20];
+    printf("Enter your name: ");
+    scanf("%s",name);//we dont use the ampersand sign because of its already a pointer array
+
+    char *surname;
+    surname = (char*)malloc(sizeof(char)*40);
+    printf("Enter your surname: ");
+    scanf("%s",surname);//we dont use the ampersand sign because of its already a pointer array
+
+    printf("Your name is : %s, surname is : %s",name,surname);
+
+}
+
+void fileExample(){
+    printf("\nFile Example\n");
+
+    FILE *file;
+    char ch;
+    char *buffer;
+    buffer = (char*)malloc(sizeof(char)*11);
+
+    printf("\nWriting to a file to test.txt\n");
+    file = fopen("test.txt","w");
+    fprintf(file,"This is a test text file.");
+    fclose(file);
+    printf("Done!\n");
+
+    printf("\nReading with fscanf from test.txt\n");
+    file = fopen("test.txt","r");
+    printf("File content is:...\n");
+    while(!feof(file)){//EOF-> End of File
+        fscanf(file,"%s",buffer);
+        printf("%s ",buffer);
+    }
+    printf("\n");
+    fclose(file);
+    printf("Done!\n");
+
+    printf("\nReading from a file with EOF from test.txt\n");
+    file = fopen("test.txt","r");
+    while(!feof(file)){//EOF-> End of File
+        ch = getc(file);
+        printf("\n%c",ch);
+    }
+    fclose(file);
+    printf("Done!\n");
+
+    printf("\nReading with fread from test.txt\n");
+    if((file=fopen("test.txt","r"))){
+        fread(buffer,1,10,file);
+        buffer[10]=0;
+        fclose(file);
+        printf("First ten character of file->%s\n",buffer);
+    }else{
+        printf("File can not be opened");
+    }
+    printf("Done!\n");
+
+    printf("\nWriting with fwrite to test.txt\n");
+    buffer = "\n123456789a";
+    file = fopen("test.txt","a");
+    fwrite(buffer,1,11,file);
+    fclose(file);
+    printf("Done!\n");
+
+    printf("\nCursor placement to test1.txt\n");
+    file = fopen("test1.txt","w");
+    fputs("This is the 1st row of file.",file);
+    fseek(file,10,SEEK_SET);
+    fputs("\INTERRUPT",file);
+    fclose(file);
+    printf("Done!\n");
+    /*
+    *SEEK_SET->From beginning
+    *SEEK_CUR->From where the current is
+    *SEEK_END->From ending
+    */
+
+    printf("\nLocation of cursor at test2.txt\n");
+    file = fopen("test2.txt","w");
+    printf("Location of cursor -> %d\n",ftell(file));
+    fprintf(file,"Cursor going to end of this line.");
+    printf("Writed to file -> Cursor going to end of this line.\n");
+    printf("Location of cursor -> %d\n",ftell(file));
+    fseek(file,10,SEEK_SET);
+    printf("Cursor to 10\nWrited to file -> INTERRUPT\n");
+    fprintf(file,"INTERRUPT");
+    printf("Location of cursor -> %d\n",ftell(file));
+    fclose(file);
+    printf("Done!\n");
+
+}
+
+

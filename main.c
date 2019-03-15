@@ -252,11 +252,11 @@ void fileExample(){
     fclose(file);
     printf("Done!\n");
 
-    printf("\nCursor placement to test1.txt\n");
+    printf("\nCursor placement at test1.txt\n");
     file = fopen("test1.txt","w");
     fputs("This is the 1st row of file.",file);
     fseek(file,10,SEEK_SET);
-    fputs("\INTERRUPT",file);
+    fputs("INTERRUPT",file);
     fclose(file);
     printf("Done!\n");
     /*

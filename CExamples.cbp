@@ -31,9 +31,45 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="binarySearch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="binarySearch.h" />
+		<Unit filename="fileExample.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fileExample.h" />
+		<Unit filename="loops.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="loops.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="memoryExamples.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="memoryExamples.h" />
+		<Unit filename="operators.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="operators.h" />
+		<Unit filename="pointerExamples.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pointerExamples.h" />
+		<Unit filename="stringExample.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stringExample.h" />
+		<Unit filename="structExample.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="structExample.h" />
+		<Unit filename="variableSizeOf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="variableSizeOf.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

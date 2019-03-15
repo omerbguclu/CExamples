@@ -8,7 +8,8 @@ int main()
 //    andOrParameters();
 //    loops();
 /*    char a;
-    printf("%c",prototype(a));*/
+    printf("%c",prototype(a));
+*/
 //    pointers();
 //    pointerArrays();
 //    mallocExample();
@@ -16,15 +17,15 @@ int main()
     callByValue(a);//Value will not change because of its coming from a method
     printf("a->%d\n",a);
     callByReference(&a);//Value will change because we are directly point the address of a
-    printf("a->%d\n",a);*/
+    printf("a->%d\n",a);
+*/
 //    structExample();
 //    stringExample();
 //    fileExample();
 //    binarySearch();
-    int array[25] = {0};
-    int size = *(&array+1)-array;
-    printf("%d->%d",array,size);
-    //for(int i=0;i<sizeof(array);i++){}
+    mergeSortRun();
+
+
 }
 
 void prototype(char a){

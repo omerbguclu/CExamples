@@ -1,3 +1,4 @@
+#include <stdio.h>
 void loops(){
     printf("\n");
     printf("For Example\n");

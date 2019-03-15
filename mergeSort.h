@@ -1,7 +1,7 @@
 #ifndef mergeSort
 #define mergeSort
 
-void mergeSort(void);
+void mergeSortRun(void);
 
 #endif // mergeSort
 

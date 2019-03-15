@@ -20,10 +20,10 @@ void binarySearch(){
 			scanf("%u",&isNumber);
 			if(isNumber){
 				searchLowNumber = searchMidNumber;
-				searchMidNumber = (searchHighNumber + searchLowNumber)/2;
+				searchMidNumber = searchLowNumber + (searchHighNumber - searchLowNumber)/2;
 			}else{
 				searchHighNumber = searchMidNumber;
-				searchMidNumber = (searchHighNumber + searchLowNumber)/2;
+				searchMidNumber = searchLowNumber + (searchHighNumber - searchLowNumber)/2;
 			}
 			counter++;
 		}

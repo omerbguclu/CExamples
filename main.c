@@ -20,7 +20,11 @@ int main()
 //    structExample();
 //    stringExample();
 //    fileExample();
-    binarySearch();
+//    binarySearch();
+    int array[25] = {0};
+    int size = *(&array+1)-array;
+    printf("%d->%d",array,size);
+    //for(int i=0;i<sizeof(array);i++){}
 }
 
 void prototype(char a){

@@ -50,6 +50,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="memoryExamples.h" />
+		<Unit filename="mergeSort.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mergeSort.h" />
 		<Unit filename="operators.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -58,6 +62,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="pointerExamples.h" />
+		<Unit filename="recursiveExample.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="recursiveExample.h" />
 		<Unit filename="stringExample.c">
 			<Option compilerVar="CC" />
 		</Unit>

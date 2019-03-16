@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 void stringExample(){
     printf("\nString Example\n");
 

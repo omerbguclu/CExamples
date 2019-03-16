@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 void shifting()
 {
     printf("\n");

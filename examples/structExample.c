@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 void structExample(){
     printf("\nStruct Example\n");
     typedef enum{

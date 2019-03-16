@@ -1,3 +1,4 @@
+#include <stdio.h>
 void sizeOfVariables(){
     printf("Storage size for int : %d byte\n", sizeof(int));
     printf("Storage size for float : %d byte\n", sizeof(float));

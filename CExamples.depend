@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1552662387 source:d:\desktopshortcuts\mycc++projects\cexamples\main.c
+1552758503 source:d:\desktopshortcuts\mycc++projects\cexamples\main.c
 	<stdio.h>
 	<stdlib.h>
 
@@ -39,31 +39,43 @@
 
 1552487962 source:c:\users\omer\desktop\githubclones\cexamples\mergesort.c
 
-1552656137 source:d:\desktopshortcuts\mycc++projects\cexamples\binarysearch.c
+1552757339 source:d:\desktopshortcuts\mycc++projects\cexamples\binarysearch.c
 	<stdio.h>
 	<stdlib.h>
 
-1552656137 source:d:\desktopshortcuts\mycc++projects\cexamples\fileexample.c
+1552757572 source:d:\desktopshortcuts\mycc++projects\cexamples\fileexample.c
 	<stdio.h>
-
-1552656137 source:d:\desktopshortcuts\mycc++projects\cexamples\memoryexamples.c
 	<stdlib.h>
 
-1552656137 source:d:\desktopshortcuts\mycc++projects\cexamples\operators.c
+1552757641 source:d:\desktopshortcuts\mycc++projects\cexamples\memoryexamples.c
+	<stdio.h>
+	<stdlib.h>
 
-1552656137 source:d:\desktopshortcuts\mycc++projects\cexamples\pointerexamples.c
+1552756735 source:d:\desktopshortcuts\mycc++projects\cexamples\operators.c
+	<stdio.h>
 
-1552656137 source:d:\desktopshortcuts\mycc++projects\cexamples\stringexample.c
+1552757711 source:d:\desktopshortcuts\mycc++projects\cexamples\pointerexamples.c
+	<stdio.h>
 
-1552656137 source:d:\desktopshortcuts\mycc++projects\cexamples\structexample.c
+1552756667 source:d:\desktopshortcuts\mycc++projects\cexamples\stringexample.c
+	<stdio.h>
+	<stdlib.h>
 
-1552656137 source:d:\desktopshortcuts\mycc++projects\cexamples\variablesizeof.c
+1552756644 source:d:\desktopshortcuts\mycc++projects\cexamples\structexample.c
+	<stdio.h>
+	<stdlib.h>
+
+1552756765 source:d:\desktopshortcuts\mycc++projects\cexamples\variablesizeof.c
+	<stdio.h>
 
 1552658271 source:d:\desktopshortcuts\mycc++projects\cexamples\loops.c
 	<stdio.h>
 
-1552681281 source:d:\desktopshortcuts\mycc++projects\cexamples\mergesort.c
+1552761412 source:d:\desktopshortcuts\mycc++projects\cexamples\mergesort.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
+
+1552756146 source:d:\desktopshortcuts\mycc++projects\cexamples\recursiveexample.c
+	<stdio.h>
 

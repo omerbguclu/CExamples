@@ -1,6 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
+
+void sizeOfVariables(void);
+void shifting(void);
+void andOrParameters(void);
+void loops(void);
 void prototype(char);
+void pointers(void);
+void pointersArrays(void);
+void mallocExample(void);
+void callByValue(int);
+void callByReference(int*);
+void structExample(void);
+void stringExample(void);
+void fileExample(void);
+void binarySearch(void);
+void sortExamples(void);
+void recursiveExample(void);
+
 int main()
 {
 //    sizeOfVariables();
@@ -23,14 +40,13 @@ int main()
 //    stringExample();
 //    fileExample();
 //    binarySearch();
-    mergeSortRun();
+    sortExamples();
+//    recursiveExample();
 
 
 }
 
 void prototype(char a){
-
-
     printf("\n");
     printf("Prototype Example\n");
     printf("Enter a character");

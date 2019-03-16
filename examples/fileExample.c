@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 void fileExample(){
     printf("\nFile Example\n");
 
@@ -51,11 +52,11 @@ void fileExample(){
     fclose(file);
     printf("Done!\n");
 
-    printf("\nCursor placement to test1.txt\n");
+    printf("\nCursor placement at test1.txt\n");
     file = fopen("test1.txt","w");
     fputs("This is the 1st row of file.",file);
     fseek(file,10,SEEK_SET);
-    fputs("\INTERRUPT",file);
+    fputs("INTERRUPT",file);
     fclose(file);
     printf("Done!\n");
     /*
@@ -66,14 +67,14 @@ void fileExample(){
 
     printf("\nLocation of cursor at test2.txt\n");
     file = fopen("test2.txt","w");
-    printf("Location of cursor -> %d\n",ftell(file));
+    printf("Location of cursor -> %ld\n",ftell(file));
     fprintf(file,"Cursor going to end of this line.");
     printf("Writed to file -> Cursor going to end of this line.\n");
-    printf("Location of cursor -> %d\n",ftell(file));
+    printf("Location of cursor -> %ld\n",ftell(file));
     fseek(file,10,SEEK_SET);
     printf("Cursor to 10\nWrited to file -> INTERRUPT\n");
     fprintf(file,"INTERRUPT");
-    printf("Location of cursor -> %d\n",ftell(file));
+    printf("Location of cursor -> %ld\n",ftell(file));
     fclose(file);
     printf("Done!\n");
 

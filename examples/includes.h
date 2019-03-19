@@ -1,3 +1,6 @@
+#ifndef INCLUDES
+#define INCLUDES
+
 #include "binarySearch.h"
 #include "fileExample.h"
 #include "linkedListExamples.h"
@@ -10,4 +13,8 @@
 #include "stringExample.h"
 #include "structExample.h"
 #include "variableSizeOf.h"
+
+
+#endif // INCLUDES
+
 

@@ -27,7 +27,7 @@ int main()
 //    binarySearch();
 //    sortExamples();
 //    recursiveExample();
-//    linkedListExamples();
+    linkedListExamples();
 
 }
 

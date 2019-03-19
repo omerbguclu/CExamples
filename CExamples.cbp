@@ -31,53 +31,58 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="binarySearch.c">
+		<Unit filename="examples/binarySearch.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="binarySearch.h" />
-		<Unit filename="fileExample.c">
+		<Unit filename="examples/binarySearch.h" />
+		<Unit filename="examples/fileExample.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="fileExample.h" />
-		<Unit filename="loops.c">
+		<Unit filename="examples/fileExample.h" />
+		<Unit filename="examples/includes.h" />
+		<Unit filename="examples/linkedListExamples.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="loops.h" />
+		<Unit filename="examples/linkedListExamples.h" />
+		<Unit filename="examples/loops.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="examples/loops.h" />
+		<Unit filename="examples/memoryExamples.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="examples/memoryExamples.h" />
+		<Unit filename="examples/operators.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="examples/operators.h" />
+		<Unit filename="examples/pointerExamples.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="examples/pointerExamples.h" />
+		<Unit filename="examples/recursiveExample.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="examples/recursiveExample.h" />
+		<Unit filename="examples/sortExamples.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="examples/sortExamples.h" />
+		<Unit filename="examples/stringExample.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="examples/stringExample.h" />
+		<Unit filename="examples/structExample.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="examples/structExample.h" />
+		<Unit filename="examples/variableSizeOf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="examples/variableSizeOf.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="memoryExamples.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="memoryExamples.h" />
-		<Unit filename="mergeSort.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="mergeSort.h" />
-		<Unit filename="operators.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="operators.h" />
-		<Unit filename="pointerExamples.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="pointerExamples.h" />
-		<Unit filename="recursiveExample.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="recursiveExample.h" />
-		<Unit filename="stringExample.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="stringExample.h" />
-		<Unit filename="structExample.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="structExample.h" />
-		<Unit filename="variableSizeOf.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="variableSizeOf.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

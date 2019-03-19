@@ -1,22 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void sizeOfVariables(void);
-void shifting(void);
-void andOrParameters(void);
-void loops(void);
-void prototype(char);
-void pointers(void);
-void pointersArrays(void);
-void mallocExample(void);
-void callByValue(int);
-void callByReference(int*);
-void structExample(void);
-void stringExample(void);
-void fileExample(void);
-void binarySearch(void);
-void sortExamples(void);
-void recursiveExample(void);
+#include "examples/includes.h"
 
 int main()
 {
@@ -40,9 +25,9 @@ int main()
 //    stringExample();
 //    fileExample();
 //    binarySearch();
-    sortExamples();
+//    sortExamples();
 //    recursiveExample();
-
+//    linkedListExamples();
 
 }
 

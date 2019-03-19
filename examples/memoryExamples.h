@@ -1,10 +1,8 @@
-#ifndef loops
-#define loops
+#ifndef MEMORY_EXAMPLES
+#define MEMORY_EXAMPLES
 
 void mallocExample(void);
 void callByValue(int);
 void callByReference(int *);
 
-#endif // loops
-
-
+#endif // MEMORY_EXAMPLES

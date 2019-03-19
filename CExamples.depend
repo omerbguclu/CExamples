@@ -1,7 +1,8 @@
 # depslib dependency file v1.0
-1552758503 source:d:\desktopshortcuts\mycc++projects\cexamples\main.c
+1552841752 source:d:\desktopshortcuts\mycc++projects\cexamples\main.c
 	<stdio.h>
 	<stdlib.h>
+	"examples/includes.h"
 
 1552491942 source:c:\users\omer\desktop\githubclones\cexamples\main.c
 	<stdio.h>
@@ -78,4 +79,87 @@
 
 1552756146 source:d:\desktopshortcuts\mycc++projects\cexamples\recursiveexample.c
 	<stdio.h>
+
+1552757339 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\binarysearch.c
+	<stdio.h>
+	<stdlib.h>
+
+1552757572 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\fileexample.c
+	<stdio.h>
+	<stdlib.h>
+
+1552658271 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\loops.c
+	<stdio.h>
+
+1552757641 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\memoryexamples.c
+	<stdio.h>
+	<stdlib.h>
+
+1552756735 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\operators.c
+	<stdio.h>
+
+1552757711 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\pointerexamples.c
+	<stdio.h>
+
+1552756146 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\recursiveexample.c
+	<stdio.h>
+
+1552762262 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\sortexamples.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1552756667 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\stringexample.c
+	<stdio.h>
+	<stdlib.h>
+
+1552756644 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\structexample.c
+	<stdio.h>
+	<stdlib.h>
+
+1552756765 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\variablesizeof.c
+	<stdio.h>
+
+1552839585 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\linkedlistexamples.c
+	<stdio.h>
+	<stdlib.h>
+	"linkedListExamples.h"
+
+1552839589 d:\desktopshortcuts\mycc++projects\cexamples\examples\linkedlistexamples.h
+
+1552841496 d:\desktopshortcuts\mycc++projects\cexamples\examples\includes.h
+	"binarySearch.h"
+	"fileExample.h"
+	"linkedListExamples.h"
+	"loops.h"
+	"memoryExamples.h"
+	"operators.h"
+	"pointerExamples.h"
+	"recursiveExample.h"
+	"sortExamples.h"
+	"stringExample.h"
+	"structExample.h"
+	"variableSizeOf.h"
+
+1552839413 d:\desktopshortcuts\mycc++projects\cexamples\examples\binarysearch.h
+
+1552841144 d:\desktopshortcuts\mycc++projects\cexamples\examples\fileexample.h
+
+1552841160 d:\desktopshortcuts\mycc++projects\cexamples\examples\loops.h
+
+1552841196 d:\desktopshortcuts\mycc++projects\cexamples\examples\memoryexamples.h
+
+1552841209 d:\desktopshortcuts\mycc++projects\cexamples\examples\operators.h
+
+1552841244 d:\desktopshortcuts\mycc++projects\cexamples\examples\pointerexamples.h
+
+1552841237 d:\desktopshortcuts\mycc++projects\cexamples\examples\recursiveexample.h
+
+1552841261 d:\desktopshortcuts\mycc++projects\cexamples\examples\sortexamples.h
+
+1552841279 d:\desktopshortcuts\mycc++projects\cexamples\examples\stringexample.h
+
+1552841308 d:\desktopshortcuts\mycc++projects\cexamples\examples\structexample.h
+
+1552841321 d:\desktopshortcuts\mycc++projects\cexamples\examples\variablesizeof.h
 

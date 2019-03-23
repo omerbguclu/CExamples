@@ -31,55 +31,67 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="examples/binarySearch.c">
+		<Unit filename="examples/examples-01-operators.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="examples/binarySearch.h" />
-		<Unit filename="examples/fileExample.c">
+		<Unit filename="examples/examples-01-operators.h" />
+		<Unit filename="examples/examples-02-variableSizeOf.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="examples/fileExample.h" />
+		<Unit filename="examples/examples-02-variableSizeOf.h" />
+		<Unit filename="examples/examples-03-loops.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="examples/examples-03-loops.h" />
+		<Unit filename="examples/examples-04-pointerExamples.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="examples/examples-04-pointerExamples.h" />
+		<Unit filename="examples/examples-05-memoryExamples.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="examples/examples-05-memoryExamples.h" />
+		<Unit filename="examples/examples-06-sortExamples.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="examples/examples-06-sortExamples.h" />
+		<Unit filename="examples/examples-07-binarySearch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="examples/examples-07-binarySearch.h" />
+		<Unit filename="examples/examples-08-recursiveExample.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="examples/examples-08-recursiveExample.h" />
+		<Unit filename="examples/examples-09-stringExample.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="examples/examples-09-stringExample.h" />
+		<Unit filename="examples/examples-10-fileExample.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="examples/examples-10-fileExample.h" />
+		<Unit filename="examples/examples-11-structExample.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="examples/examples-11-structExample.h" />
+		<Unit filename="examples/examples-12-linkedListExamples.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="examples/examples-12-linkedListExamples.h" />
+		<Unit filename="examples/examples-13-circularLinkedList.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="examples/examples-13-circularLinkedList.h" />
+		<Unit filename="examples/examples-14-stackWithPointers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="examples/examples-14-stackWithPointers.h" />
+		<Unit filename="examples/examples-15-stackWithLinkedLists.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="examples/examples-15-stackWithLinkedLists.h" />
 		<Unit filename="examples/includes.h" />
-		<Unit filename="examples/linkedListExamples.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="examples/linkedListExamples.h" />
-		<Unit filename="examples/loops.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="examples/loops.h" />
-		<Unit filename="examples/memoryExamples.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="examples/memoryExamples.h" />
-		<Unit filename="examples/operators.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="examples/operators.h" />
-		<Unit filename="examples/pointerExamples.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="examples/pointerExamples.h" />
-		<Unit filename="examples/recursiveExample.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="examples/recursiveExample.h" />
-		<Unit filename="examples/sortExamples.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="examples/sortExamples.h" />
-		<Unit filename="examples/stringExample.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="examples/stringExample.h" />
-		<Unit filename="examples/structExample.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="examples/structExample.h" />
-		<Unit filename="examples/variableSizeOf.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="examples/variableSizeOf.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

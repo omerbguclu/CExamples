@@ -1,12 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "examples-12-linkedListExamples.h"
 
 #define MULTIPLIER 10
-
-typedef struct node{
-    int content;
-    struct node * next;
-}node;
 
 node * fillLinkedList(node *root,int sizeOfLinkedList,int multiplier){
     if(root==NULL)
@@ -28,58 +24,33 @@ node * fillLinkedList(node *root,int sizeOfLinkedList,int multiplier){
     return root;
 }
 
+static void swap(node *a, node *b){
+    int temp = a->content;
+    a->content = b->content;
+    b->content = temp;
+}
+
 node * addSequentially(node *root,int content){
-    if(root == NULL){   //If linked list is empty
-        root = (node*)malloc(sizeof(node));
-        root -> content = content;
-        root -> next = NULL;
-    }else if(root->next == NULL){   //If the next element is NULL so we have only one element in the linked list
-        root -> next = (node*)malloc(sizeof(node));
-        if(root->content > content){
-            root -> next -> content = root -> content;
-            root -> content = content;
-        }else {
-            root -> next -> content = content;
-        }
-        root -> next -> next = NULL;
-    }else{
-        node *temp,*iterator;
-        temp = (node*)malloc(sizeof(node));
-        iterator = (node*)malloc(sizeof(node));
-        iterator = root;
-
-        while(iterator->next != NULL && iterator->content < content){ //We iterate the linked list for the right place to add a new element
-            if(iterator->next->content < content){ //If the next element is less than the added number we iterate if it is not we have to stop
-                iterator = iterator -> next;
-            }else
-                break;
-        }
-
-        if(iterator->next == NULL){ //If we are on the last element of the linked list
-            iterator -> next = (node*)malloc(sizeof(node));
-            if(iterator->content > content){
-                iterator -> next = (node*)malloc(sizeof(node));
-                iterator -> next -> content = iterator -> content;
-                iterator -> content = content;
-            }else {
-                temp -> next = iterator -> next;
-                iterator -> next = temp;
-                temp -> content = content;
-            }
-            iterator -> next -> next = NULL;
-        }else{
-            if(root->content > content){ //If added number is less than root(first element of the linked list)
-                temp -> next = root -> next;
-                root -> next = temp;
-                temp -> content = content;
-                swap(root,temp);
-            }else{  //If added number will add somewhere in the middle
-                temp -> next = iterator -> next;
-                iterator -> next = temp;
-                temp -> content = content;
-            }
-        }
+    if(root==NULL){//If linked list is empty
+        root=(node*)malloc(sizeof(node));
+        root->next= NULL;
+        root->content = content;
+        return root;
     }
+    if(root->content > content){ // If added number is less than root(first element of the linked list)
+        node * temp = (node*)malloc(sizeof(node));
+        temp -> content = content;
+        temp -> next = root;
+        return temp;
+    }
+    node * temp = (node*)malloc(sizeof(node));
+    node * iterator = root;
+    while(iterator -> next != NULL && iterator ->next-> content < content){
+        iterator = iterator -> next;//We iterate the linked list for the right place to add a new element
+    }
+    temp -> next = iterator -> next;
+    iterator -> next = temp;
+    temp -> content = content;
     return root;
 }
 
@@ -112,6 +83,21 @@ void addToEnding(node *root,int content){
             iterator = iterator -> next;
         }
     }
+}
+
+void addToStart(node *root,int content){
+    node *temp = (node*)malloc(sizeof(node));
+    temp -> next = root -> next;
+    root -> next = temp;
+    temp -> content = content;
+    swap(root,temp);
+}
+
+void removeFromStart(node **root){
+    node *temp = *root;
+    temp = temp->next;
+    free(root);
+    *root = temp;
 }
 
 void removeFromEnding(node *root){
@@ -157,12 +143,6 @@ void insertToLL(node *root,int whereTo,int content){
         }
         iterator = iterator -> next;
     }
-}
-
-void swap(node *a, node *b){
-    int temp = a->content;
-    a->content = b->content;
-    b->content = temp;
 }
 
 void bubbleSortLinkedList(node *root){
@@ -226,6 +206,11 @@ void linkedListExamples(){
     bubbleSortLinkedList(root);
     printf("-------------------------\n");
     printLinkedList(root);
-
+    addToStart(root,1);
+    printf("-------------------------\n");
+    printLinkedList(root);
+    removeFromStart(&root);
+    printf("-------------------------\n");
+    printLinkedList(root);
 }
 

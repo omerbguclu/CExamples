@@ -27,8 +27,9 @@ int main()
 //    binarySearch();
 //    sortExamples();
 //    recursiveExample();
-    linkedListExamples();
-
+//    linkedListExamples();
+//    circularLinkedList();
+//    stackExample();
 }
 
 void prototype(char a){

@@ -1,18 +1,20 @@
 #ifndef INCLUDES
 #define INCLUDES
 
-#include "binarySearch.h"
-#include "fileExample.h"
-#include "linkedListExamples.h"
-#include "loops.h"
-#include "memoryExamples.h"
-#include "operators.h"
-#include "pointerExamples.h"
-#include "recursiveExample.h"
-#include "sortExamples.h"
-#include "stringExample.h"
-#include "structExample.h"
-#include "variableSizeOf.h"
+#include "examples-01-operators.h"
+#include "examples-02-variableSizeOf.h"
+#include "examples-03-loops.h"
+#include "examples-04-pointerExamples.h"
+#include "examples-05-memoryExamples.h"
+#include "examples-06-sortExamples.h"
+#include "examples-07-binarySearch.h"
+#include "examples-08-recursiveExample.h"
+#include "examples-09-stringExample.h"
+#include "examples-10-fileExample.h"
+#include "examples-11-structExample.h"
+#include "examples-12-linkedListExamples.h"
+#include "examples-13-circularLinkedList.h"
+#include "examples-14-stackWithPointers.h"
 
 
 #endif // INCLUDES

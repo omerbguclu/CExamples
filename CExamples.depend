@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1553016592 source:d:\desktopshortcuts\mycc++projects\cexamples\main.c
+1553348708 source:d:\desktopshortcuts\mycc++projects\cexamples\main.c
 	<stdio.h>
 	<stdlib.h>
 	"examples/includes.h"
@@ -120,25 +120,28 @@
 1552756765 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\variablesizeof.c
 	<stdio.h>
 
-1553035021 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\linkedlistexamples.c
+1553181995 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\linkedlistexamples.c
 	<stdio.h>
 	<stdlib.h>
-
-1552839589 d:\desktopshortcuts\mycc++projects\cexamples\examples\linkedlistexamples.h
-
-1552999356 d:\desktopshortcuts\mycc++projects\cexamples\examples\includes.h
-	"binarySearch.h"
-	"fileExample.h"
 	"linkedListExamples.h"
-	"loops.h"
-	"memoryExamples.h"
-	"operators.h"
-	"pointerExamples.h"
-	"recursiveExample.h"
-	"sortExamples.h"
-	"stringExample.h"
-	"structExample.h"
-	"variableSizeOf.h"
+
+1553178503 d:\desktopshortcuts\mycc++projects\cexamples\examples\linkedlistexamples.h
+
+1553346184 d:\desktopshortcuts\mycc++projects\cexamples\examples\includes.h
+	"examples-01-operators.h"
+	"examples-02-variableSizeOf.h"
+	"examples-03-loops.h"
+	"examples-04-pointerExamples.h"
+	"examples-05-memoryExamples.h"
+	"examples-06-sortExamples.h"
+	"examples-07-binarySearch.h"
+	"examples-08-recursiveExample.h"
+	"examples-09-stringExample.h"
+	"examples-10-fileExample.h"
+	"examples-11-structExample.h"
+	"examples-12-linkedListExamples.h"
+	"examples-13-circularLinkedList.h"
+	"examples-14-stack.h"
 
 1552839413 d:\desktopshortcuts\mycc++projects\cexamples\examples\binarysearch.h
 
@@ -161,4 +164,94 @@
 1552841308 d:\desktopshortcuts\mycc++projects\cexamples\examples\structexample.h
 
 1552841321 d:\desktopshortcuts\mycc++projects\cexamples\examples\variablesizeof.h
+
+1553180362 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\circularlinkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	"linkedListExamples.h"
+
+1553176656 d:\desktopshortcuts\mycc++projects\cexamples\examples\circularlinkedlist.h
+
+1552756735 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-01-operators.c
+	<stdio.h>
+
+1552756765 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-02-variablesizeof.c
+	<stdio.h>
+
+1552658271 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-03-loops.c
+	<stdio.h>
+
+1552757711 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-04-pointerexamples.c
+	<stdio.h>
+
+1552757641 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-05-memoryexamples.c
+	<stdio.h>
+	<stdlib.h>
+
+1553016575 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-06-sortexamples.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1552757339 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-07-binarysearch.c
+	<stdio.h>
+	<stdlib.h>
+
+1552756146 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-08-recursiveexample.c
+	<stdio.h>
+
+1552756667 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-09-stringexample.c
+	<stdio.h>
+	<stdlib.h>
+
+1552757572 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-10-fileexample.c
+	<stdio.h>
+	<stdlib.h>
+
+1552756644 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-11-structexample.c
+	<stdio.h>
+	<stdlib.h>
+
+1553338121 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-12-linkedlistexamples.c
+	<stdio.h>
+	<stdlib.h>
+	"examples-12-linkedListExamples.h"
+
+1553178503 d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-12-linkedlistexamples.h
+
+1553348537 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-13-circularlinkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	"examples-12-linkedListExamples.h"
+
+1552841209 d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-01-operators.h
+
+1552841321 d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-02-variablesizeof.h
+
+1552841160 d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-03-loops.h
+
+1552841244 d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-04-pointerexamples.h
+
+1552841196 d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-05-memoryexamples.h
+
+1552841261 d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-06-sortexamples.h
+
+1552839413 d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-07-binarysearch.h
+
+1552841237 d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-08-recursiveexample.h
+
+1552841279 d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-09-stringexample.h
+
+1552841144 d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-10-fileexample.h
+
+1552841308 d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-11-structexample.h
+
+1553176656 d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-13-circularlinkedlist.h
+
+1553359039 source:d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-14-stack.c
+	<stdio.h>
+	<stdlib.h>
+	"examples-14-stack.h"
+
+1553351707 d:\desktopshortcuts\mycc++projects\cexamples\examples\examples-14-stack.h
 

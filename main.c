@@ -30,6 +30,7 @@ int main()
 //    linkedListExamples();
 //    circularLinkedList();
 //    stackExample();
+//    stackWithLinkedList();
 }
 
 void prototype(char a){

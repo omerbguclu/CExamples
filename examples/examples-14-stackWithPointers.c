@@ -11,7 +11,7 @@ void init(stackType **stack){
     *stack = temp;
     printf("STACK INITALIZED!\n");
 }
-static void copy(int *temp,stackType *stack){
+void copy(int *temp,stackType *stack){
     for(int i=0;i<stack->sizeOfStack;i++){
         temp[i] = stack->stackArray[i];
     }

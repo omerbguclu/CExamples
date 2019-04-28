@@ -31,6 +31,8 @@ int main()
 //    circularLinkedList();
 //    stackExample();
 //    stackWithLinkedList();
+//    bitwiseOperators();
+//    structurePacking();
 }
 
 void prototype(char a){

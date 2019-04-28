@@ -16,6 +16,8 @@
 #include "examples-13-circularLinkedList.h"
 #include "examples-14-stackWithPointers.h"
 #include "examples-15-stackWithLinkedLists.h"
+#include "examples-16-bitwiseOperators.h"
+#include "examples-17-artOfStructurePacking.h"
 
 
 #endif // INCLUDES
